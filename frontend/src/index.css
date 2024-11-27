@@ -1,0 +1,48 @@
+
+
+/* Estilos para el código */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 16px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Estilo para la sección de bienvenida */
+.welcome {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.welcome h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.welcome p {
+  font-size: 1.2em;
+  color: #666;
+}
